@@ -11,3 +11,51 @@ html, body{
   height: 100%;
   width: 100%;
 }
+#root{
+  height: 100%;
+  width: 100%;
+}
+.startbox{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.btn{
+  padding: 5px 39px !important;
+  text-align: center !important;
+  font-size: 1.5rem !important;
+  color: #fff !important;
+}
+.option{
+  padding: 10px !important;
+  border-radius: .5rem;
+}
+.question-container{
+  padding: 3rem;
+  max-width: 800px;
+}
+.question{
+  color: black;
+  font-size: 1.2rem;
+  margin: 1.2rem 0;
+}
+.progress-bar{
+  width: 100%;
+  color: #2094f3;
+  height: 5px;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+.progress-bar::-webkit-progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: #2094f3;
+  border-radius: 10px;
+}
