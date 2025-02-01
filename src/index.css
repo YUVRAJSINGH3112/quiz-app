@@ -19,20 +19,30 @@ html, body{
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-top: 5rem;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+}
+.info{
+  font-size: 1.2rem;
 }
 .btn{
   padding: 5px 39px !important;
   text-align: center !important;
   font-size: 1.5rem !important;
   color: #fff !important;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #005eaa;
+  color: white;
 }
 .option{
   padding: 10px !important;
   border-radius: .5rem;
+  cursor: pointer;
 }
 .question-container{
   padding: 3rem;
@@ -58,4 +68,9 @@ html, body{
 .progress-bar::-webkit-progress-value {
   background-color: #2094f3;
   border-radius: 10px;
+}
+.next-button{
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
 }
