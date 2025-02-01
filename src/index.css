@@ -74,3 +74,8 @@ html, body{
   color: black;
   cursor: pointer;
 }
+.score{
+  font-size: 1rem;
+  color: white;
+  padding: 30px;
+}

@@ -164,7 +164,7 @@ const QuizApp = () => {
               <p>No questions available.</p>
             )
           ) : (
-            <div className="max-w-lg bg-green-700 text-white p-6 rounded-lg shadow-md">
+            <div className="score max-w-lg bg-blue-500 text-white p-6 rounded-lg shadow-md">
               <h2 className="text-2xl font-bold">Quiz Completed!</h2>
               <p className="text-lg mt-2">Your Score: {score} / {questions.length * 4}</p>
             </div>
